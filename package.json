@@ -1,0 +1,30 @@
+{
+  "name": "webpack-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5"
+  },
+  "dependencies": {
+    "adm-zip": "^0.4.13",
+    "cheerio": "^1.0.0-rc.3",
+    "fs": "0.0.1-security",
+    "jszip": "^3.2.1",
+    "line-by-line": "^0.1.6",
+    "mammoth": "^1.4.8",
+    "node-stream-zip": "^1.8.0",
+    "original-fs": "^1.0.0",
+    "pdfreader": "^1.0.4",
+    "tesseract.js": "^1.0.19",
+    "word-extractor": "^0.3.0"
+  }
+}
